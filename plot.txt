@@ -6,10 +6,18 @@ set xlabel 'x'
 set ylabel 'y'
 set grid 
 
-set xrange [-5:5]
+set xrange [-5:10]
 set yrange [-5:5]
 
-plot "res.plt" using 1:2 axis x1y1 with linespoints notitle linewidth 2 lc rgb "#FF0020",\
-	"" using 3:4 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
-	"" using 5:6 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
-	"" using 7:8 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
+plot "res.plt" using 1:2 axis x1y1 with linespoints notitle linewidth 2 lc rgb "#FF0000",\
+	"" using 3:4 axis x1y1 with points notitle linewidth 2 lc rgb "#FF8000",\
+	"" using 5:6 axis x1y1 with points notitle linewidth 2 lc rgb "#808000",\
+	"" using 7:8 axis x1y1 with points notitle linewidth 2 lc rgb "#80FF00",\
+	"" using 9:10 axis x1y1 with points notitle linewidth 2 lc rgb "#00FF00",\
+	"" using 11:12 axis x1y1 with points notitle linewidth 2 lc rgb "#00FF80",\
+	"" using 13:14 axis x1y1 with points notitle linewidth 2 lc rgb "#008080",\
+	"" using 15:16 axis x1y1 with points notitle linewidth 2 lc rgb "#0080FF",\
+	"" using 17:18 axis x1y1 with points notitle linewidth 2 lc rgb "#0000FF",\
+	"" using 19:20 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
+	"" using 21:22 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
+	"" using 23:24 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\

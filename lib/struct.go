@@ -49,3 +49,14 @@ func PrintCoodPMs(p Particle, m []Material) {
 	}
 	fmt.Println()
 }
+
+func PrintCoodPsMs(p []Particle, m []Material) {
+	for i := 0; i < len(p); i++ {
+		fmt.Printf("%f, %f, ", p[i].X, p[i].Y)
+	}
+
+	for i := 0; i < len(m); i++ {
+		fmt.Printf("%f, %f, ", m[i].X, m[i].Y)
+	}
+	fmt.Println()
+}
