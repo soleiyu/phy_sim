@@ -9,15 +9,32 @@ set grid
 set xrange [-5:10]
 set yrange [-5:5]
 
-plot "res.plt" using 1:2 axis x1y1 with linespoints notitle linewidth 2 lc rgb "#FF0000",\
-	"" using 3:4 axis x1y1 with points notitle linewidth 2 lc rgb "#FF8000",\
-	"" using 5:6 axis x1y1 with points notitle linewidth 2 lc rgb "#808000",\
-	"" using 7:8 axis x1y1 with points notitle linewidth 2 lc rgb "#80FF00",\
-	"" using 9:10 axis x1y1 with points notitle linewidth 2 lc rgb "#00FF00",\
-	"" using 11:12 axis x1y1 with points notitle linewidth 2 lc rgb "#00FF80",\
-	"" using 13:14 axis x1y1 with points notitle linewidth 2 lc rgb "#008080",\
-	"" using 15:16 axis x1y1 with points notitle linewidth 2 lc rgb "#0080FF",\
-	"" using 17:18 axis x1y1 with points notitle linewidth 2 lc rgb "#0000FF",\
-	"" using 19:20 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
-	"" using 21:22 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
-	"" using 23:24 axis x1y1 with points notitle linewidth 2 lc rgb "#000000",\
+plot "res.plt" using 1:2 axis x1y1 with linespoints notitle linewidth 2 lc rgb "#404040",\
+	"" using 3:4 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 5:6 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 7:8 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 9:10 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 11:12 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 13:14 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 15:16 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 17:18 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 19:20 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 21:22 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 23:24 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 25:26 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 27:28 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 29:30 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 31:32 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 33:34 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 35:36 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 37:38 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 39:40 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 41:42 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 43:44 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 45:46 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 47:48 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 49:50 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 51:52 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 53:54 axis x1y1 with points notitle linewidth 2 lc rgb "#404040",\
+	"" using 55:56 axis x1y1 with points notitle linewidth 2 lc rgb "#FF0020",\
+	"" using 57:58 axis x1y1 with points notitle linewidth 2 lc rgb "#FF0020",\
