@@ -1,0 +1,112 @@
+set terminal png size 1080, 720
+set out "sres.png"
+set title "Phy Result"
+	
+set xlabel 'x'
+set ylabel 'y'
+set grid 
+	
+set xrange [-10:10]
+set yrange [-5:5]
+
+plot "res.plt" using 1:2 axis x1y1 with linespoints notitle linewidth 2 lc rgb "#000020",\
+	"" using 3:4 axis x1y1 with points notitle linewidth 2 lc rgb "#030740",\
+	"" using 5:6 axis x1y1 with points notitle linewidth 2 lc rgb "#060e60",\
+	"" using 7:8 axis x1y1 with points notitle linewidth 2 lc rgb "#091580",\
+	"" using 9:10 axis x1y1 with points notitle linewidth 2 lc rgb "#0c1ca0",\
+	"" using 11:12 axis x1y1 with points notitle linewidth 2 lc rgb "#0f23c0",\
+	"" using 13:14 axis x1y1 with points notitle linewidth 2 lc rgb "#122ae0",\
+	"" using 15:16 axis x1y1 with points notitle linewidth 2 lc rgb "#153200",\
+	"" using 17:18 axis x1y1 with points notitle linewidth 2 lc rgb "#183920",\
+	"" using 19:20 axis x1y1 with points notitle linewidth 2 lc rgb "#1b4040",\
+	"" using 21:22 axis x1y1 with points notitle linewidth 2 lc rgb "#1e4760",\
+	"" using 23:24 axis x1y1 with points notitle linewidth 2 lc rgb "#214e80",\
+	"" using 25:26 axis x1y1 with points notitle linewidth 2 lc rgb "#2455a0",\
+	"" using 27:28 axis x1y1 with points notitle linewidth 2 lc rgb "#275cc0",\
+	"" using 29:30 axis x1y1 with points notitle linewidth 2 lc rgb "#2a63e0",\
+	"" using 31:32 axis x1y1 with points notitle linewidth 2 lc rgb "#2d6b00",\
+	"" using 33:34 axis x1y1 with points notitle linewidth 2 lc rgb "#307220",\
+	"" using 35:36 axis x1y1 with points notitle linewidth 2 lc rgb "#337940",\
+	"" using 37:38 axis x1y1 with points notitle linewidth 2 lc rgb "#368060",\
+	"" using 39:40 axis x1y1 with points notitle linewidth 2 lc rgb "#398780",\
+	"" using 41:42 axis x1y1 with points notitle linewidth 2 lc rgb "#3c8ea0",\
+	"" using 43:44 axis x1y1 with points notitle linewidth 2 lc rgb "#3f95c0",\
+	"" using 45:46 axis x1y1 with points notitle linewidth 2 lc rgb "#429ce0",\
+	"" using 47:48 axis x1y1 with points notitle linewidth 2 lc rgb "#45a400",\
+	"" using 49:50 axis x1y1 with points notitle linewidth 2 lc rgb "#48ab20",\
+	"" using 51:52 axis x1y1 with points notitle linewidth 2 lc rgb "#4bb240",\
+	"" using 53:54 axis x1y1 with points notitle linewidth 2 lc rgb "#4eb960",\
+	"" using 55:56 axis x1y1 with points notitle linewidth 2 lc rgb "#51c080",\
+	"" using 57:58 axis x1y1 with points notitle linewidth 2 lc rgb "#54c7a0",\
+	"" using 59:60 axis x1y1 with points notitle linewidth 2 lc rgb "#57cec0",\
+	"" using 61:62 axis x1y1 with points notitle linewidth 2 lc rgb "#5ad5e0",\
+	"" using 63:64 axis x1y1 with points notitle linewidth 2 lc rgb "#5ddd00",\
+	"" using 65:66 axis x1y1 with points notitle linewidth 2 lc rgb "#60e420",\
+	"" using 67:68 axis x1y1 with points notitle linewidth 2 lc rgb "#63eb40",\
+	"" using 69:70 axis x1y1 with points notitle linewidth 2 lc rgb "#66f260",\
+	"" using 71:72 axis x1y1 with points notitle linewidth 2 lc rgb "#69f980",\
+	"" using 73:74 axis x1y1 with points notitle linewidth 2 lc rgb "#6d00a0",\
+	"" using 75:76 axis x1y1 with points notitle linewidth 2 lc rgb "#7007c0",\
+	"" using 77:78 axis x1y1 with points notitle linewidth 2 lc rgb "#730ee0",\
+	"" using 79:80 axis x1y1 with points notitle linewidth 2 lc rgb "#761600",\
+	"" using 81:82 axis x1y1 with points notitle linewidth 2 lc rgb "#791d20",\
+	"" using 83:84 axis x1y1 with points notitle linewidth 2 lc rgb "#7c2440",\
+	"" using 85:86 axis x1y1 with points notitle linewidth 2 lc rgb "#7f2b60",\
+	"" using 87:88 axis x1y1 with points notitle linewidth 2 lc rgb "#823280",\
+	"" using 89:90 axis x1y1 with points notitle linewidth 2 lc rgb "#8539a0",\
+	"" using 91:92 axis x1y1 with points notitle linewidth 2 lc rgb "#8840c0",\
+	"" using 93:94 axis x1y1 with points notitle linewidth 2 lc rgb "#8b47e0",\
+	"" using 95:96 axis x1y1 with points notitle linewidth 2 lc rgb "#8e4f00",\
+	"" using 97:98 axis x1y1 with points notitle linewidth 2 lc rgb "#915620",\
+	"" using 99:100 axis x1y1 with points notitle linewidth 2 lc rgb "#945d40",\
+	"" using 101:102 axis x1y1 with points notitle linewidth 2 lc rgb "#976460",\
+	"" using 103:104 axis x1y1 with points notitle linewidth 2 lc rgb "#9a6b80",\
+	"" using 105:106 axis x1y1 with points notitle linewidth 2 lc rgb "#9d72a0",\
+	"" using 107:108 axis x1y1 with points notitle linewidth 2 lc rgb "#a079c0",\
+	"" using 109:110 axis x1y1 with points notitle linewidth 2 lc rgb "#a380e0",\
+	"" using 111:112 axis x1y1 with points notitle linewidth 2 lc rgb "#a68800",\
+	"" using 113:114 axis x1y1 with points notitle linewidth 2 lc rgb "#a98f20",\
+	"" using 115:116 axis x1y1 with points notitle linewidth 2 lc rgb "#ac9640",\
+	"" using 117:118 axis x1y1 with points notitle linewidth 2 lc rgb "#af9d60",\
+	"" using 119:120 axis x1y1 with points notitle linewidth 2 lc rgb "#b2a480",\
+	"" using 121:122 axis x1y1 with points notitle linewidth 2 lc rgb "#b5aba0",\
+	"" using 123:124 axis x1y1 with points notitle linewidth 2 lc rgb "#b8b2c0",\
+	"" using 125:126 axis x1y1 with points notitle linewidth 2 lc rgb "#bbb9e0",\
+	"" using 127:128 axis x1y1 with points notitle linewidth 2 lc rgb "#bec100",\
+	"" using 129:130 axis x1y1 with points notitle linewidth 2 lc rgb "#c1c820",\
+	"" using 131:132 axis x1y1 with points notitle linewidth 2 lc rgb "#c4cf40",\
+	"" using 133:134 axis x1y1 with points notitle linewidth 2 lc rgb "#c7d660",\
+	"" using 135:136 axis x1y1 with points notitle linewidth 2 lc rgb "#cadd80",\
+	"" using 137:138 axis x1y1 with points notitle linewidth 2 lc rgb "#cde4a0",\
+	"" using 139:140 axis x1y1 with points notitle linewidth 2 lc rgb "#d0ebc0",\
+	"" using 141:142 axis x1y1 with points notitle linewidth 2 lc rgb "#d3f2e0",\
+	"" using 143:144 axis x1y1 with points notitle linewidth 2 lc rgb "#d6fa00",\
+	"" using 145:146 axis x1y1 with points notitle linewidth 2 lc rgb "#da0120",\
+	"" using 147:148 axis x1y1 with points notitle linewidth 2 lc rgb "#dd0840",\
+	"" using 149:150 axis x1y1 with points notitle linewidth 2 lc rgb "#e00f60",\
+	"" using 151:152 axis x1y1 with points notitle linewidth 2 lc rgb "#e31680",\
+	"" using 153:154 axis x1y1 with points notitle linewidth 2 lc rgb "#e61da0",\
+	"" using 155:156 axis x1y1 with points notitle linewidth 2 lc rgb "#e924c0",\
+	"" using 157:158 axis x1y1 with points notitle linewidth 2 lc rgb "#ec2be0",\
+	"" using 159:160 axis x1y1 with points notitle linewidth 2 lc rgb "#ef3300",\
+	"" using 161:162 axis x1y1 with points notitle linewidth 2 lc rgb "#f23a20",\
+	"" using 163:164 axis x1y1 with points notitle linewidth 2 lc rgb "#f54140",\
+	"" using 165:166 axis x1y1 with points notitle linewidth 2 lc rgb "#f84860",\
+	"" using 167:168 axis x1y1 with points notitle linewidth 2 lc rgb "#fb4f80",\
+	"" using 169:170 axis x1y1 with points notitle linewidth 2 lc rgb "#fe56a0",\
+	"" using 171:172 axis x1y1 with points notitle linewidth 2 lc rgb "#015dc0",\
+	"" using 173:174 axis x1y1 with points notitle linewidth 2 lc rgb "#0464e0",\
+	"" using 175:176 axis x1y1 with points notitle linewidth 2 lc rgb "#076c00",\
+	"" using 177:178 axis x1y1 with points notitle linewidth 2 lc rgb "#0a7320",\
+	"" using 179:180 axis x1y1 with points notitle linewidth 2 lc rgb "#0d7a40",\
+	"" using 181:182 axis x1y1 with points notitle linewidth 2 lc rgb "#108160",\
+	"" using 183:184 axis x1y1 with points notitle linewidth 2 lc rgb "#138880",\
+	"" using 185:186 axis x1y1 with points notitle linewidth 2 lc rgb "#168fa0",\
+	"" using 187:188 axis x1y1 with points notitle linewidth 2 lc rgb "#1996c0",\
+	"" using 189:190 axis x1y1 with points notitle linewidth 2 lc rgb "#1c9de0",\
+	"" using 191:192 axis x1y1 with points notitle linewidth 2 lc rgb "#1fa500",\
+	"" using 193:194 axis x1y1 with points notitle linewidth 2 lc rgb "#22ac20",\
+	"" using 195:196 axis x1y1 with points notitle linewidth 2 lc rgb "#25b340",\
+	"" using 197:198 axis x1y1 with points notitle linewidth 2 lc rgb "#28ba60",\
+	"" using 199:200 axis x1y1 with points notitle linewidth 3 lc rgb "#00FFFF",\
+	"" using 201:202 axis x1y1 with points notitle linewidth 3 lc rgb "#00FFFF",\
